@@ -1,4 +1,4 @@
-Bawlin.PostController = Ember.ObjectController.extend({
+Bawlin.GameController = Ember.ObjectController.extend({
   isEditing: false,
   actions: {
     edit: function() {

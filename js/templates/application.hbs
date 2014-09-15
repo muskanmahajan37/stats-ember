@@ -1,3 +1,10 @@
-<h1>We Out Chea Ballin'</h1>
+<div class='container'>
+  <nav class='navbar navbar-default' role='navigation'>
+    <ul class='nav navbar-nav'>
+      <li>{{#link-to 'games' classNames="navbar-brand"}}We Out Chea Ballin'{{/link-to}}</li>
+      <li>{{#link-to 'new-game'}}New Game{{/link-to}}</li>
+    </ul>
+  </nav>
+   {{outlet}}
+</div>
 
-{{outlet}}
