@@ -1,0 +1,9 @@
+<h1>Games</h1>
+
+<ul>
+  {{#each}}
+    <li>{{#link-to 'game' this.id}}{{date}}{{/link-to}}</li>
+  {{/each}}
+</ul>
+
+{{#link-to 'new-game' classNames="btn btn-primary"}}New Game{{/link-to}}

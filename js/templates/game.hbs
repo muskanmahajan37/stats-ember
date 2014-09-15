@@ -1,0 +1,11 @@
+<h1>{{date}}</h1>
+
+{{#link-to 'new-player' classNames="btn btn-primary"}}New Player{{/link-to}}
+
+{{outlet}}
+
+{{#each players}}
+  <p>
+    {{position}} | {{number}} | {{name}}
+  </p>
+{{/each}}
